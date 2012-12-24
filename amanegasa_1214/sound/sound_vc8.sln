@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{624E7C86-C4E3-4154-A9EB-4199442FAC48}") = "soundComp", "soundComp_vc8.vcproj", "{6BDA1521-344F-4E32-A550-94FBB5B35D3F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{624E7C86-C4E3-4154-A9EB-4199442FAC48}") = "sound", "sound_vc8.vcproj", "{CF7ECFE6-7021-4840-9745-2DED679F4C38}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BDA1521-344F-4E32-A550-94FBB5B35D3F}.Release|Win32.ActiveCfg = Release|Win32
+		{6BDA1521-344F-4E32-A550-94FBB5B35D3F}.Release|Win32.Build.0   = Release|Win32
+		{6BDA1521-344F-4E32-A550-94FBB5B35D3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BDA1521-344F-4E32-A550-94FBB5B35D3F}.Debug|Win32.Build.0   = Debug|Win32
+		{CF7ECFE6-7021-4840-9745-2DED679F4C38}.Release|Win32.ActiveCfg = Release|Win32
+		{CF7ECFE6-7021-4840-9745-2DED679F4C38}.Release|Win32.Build.0   = Release|Win32
+		{CF7ECFE6-7021-4840-9745-2DED679F4C38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF7ECFE6-7021-4840-9745-2DED679F4C38}.Debug|Win32.Build.0   = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
